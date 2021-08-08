@@ -1,5 +1,7 @@
 ## S3 direct image upload using Rest API
 
+- Use this code to generate pre-signed URL with Django.(using get request)
+
 <pre>import argparse
 import logging
 import boto3
@@ -43,3 +45,5 @@ def usage_demo(request):
     url = generate_presigned_url(
         s3_client, client_action, {'Bucket': BUCKET_NAME, 'Key': key}, 1000)
 </pre>
+
+- Use ``PUT`` request from Front-end to upload the image to s3 using that pre-signed URL that you get in the previuos step.
