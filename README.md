@@ -47,3 +47,8 @@ def usage_demo(request):
 </pre>
 
 - Use ``PUT`` request from Front-end to upload the image to s3 using that pre-signed URL that you get in the previuos step.
+
+### Flowchart
+
+![Group 3](https://user-images.githubusercontent.com/57860123/146515199-eb5a6605-2e1a-43d8-9291-1cd03ccd04c0.png)
+
